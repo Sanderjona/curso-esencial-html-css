@@ -1,0 +1,27 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="demojemplo1.css">
+</head>
+<body>
+  <script>
+    function miFuncion(){
+      document.getElementById("demo").innerHTML= Date();
+    }
+    function miFuncion1(){
+      document.getElementById("demo").innerHTML= "prueba";
+    }
+
+  </script>
+<p id="demo">prueba</p>
+
+  <div class="container">
+    <button class="btn"><span class="btn-text" onclick="miFuncion()">Pasa el Raton sobre mi</span></button>
+    <button class="btn rounded"><span class="text-green" onclick="miFuncion1()">Pasa el Raton sobre mi</span></button>
+  </div>
+
+</body>
+</html>
